@@ -1,0 +1,148 @@
+$primary: #3292a6;
+$primary-overlay:rgba(50,146,166,0.8);
+
+body{
+    margin-top: 105px;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px $primary;
+    opacity: 0.9;
+    background: #fff;
+
+    .nav-item{
+        font-size: 1.4rem;
+        padding-right: 20px;
+
+        a.nav-link:hover{
+            color: $primary;
+        }
+    }
+}
+
+#showcase{
+    position: relative;
+    background: url('../img/mentorlabbg.jpeg');
+    background-position: center;
+    min-height: 600px;
+
+    .text{
+        position: relative;
+        padding: 8.5rem;
+    }
+
+    .primary-overlay{
+        background: $primary-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#newsletter{
+    button {
+        color: #fff;
+        background: $primary;
+        cursor: pointer;
+    }
+    button:hover{
+        background: #fff;
+        color: $primary;
+    }
+}
+
+#boxes{
+    h3{
+        color: $primary;
+    }
+    .card:hover{
+        background: $primary;
+        color: #fff;
+        h3{
+            color: #fff;
+        }
+    }
+}
+
+.info-header{
+    width: 50%;
+    margin: auto;
+
+    hr{
+        background: $primary;
+        width: 80%;
+    }
+}
+
+#about{
+    h1{
+        color: $primary;
+    }
+    #accordian{
+        .card-header{
+            background: $primary;
+            color: #fff;
+            cursor: pointer;
+            border: $primary 1px solid;
+        }
+        .card-header:hover{
+            background: #fff;
+            color: $primary;
+        }
+        .card-body{
+            border-right: 1px solid $primary;
+            border-left: 1px solid $primary;
+            border-bottom: 1px solid $primary;
+            opacity: .8;
+
+        }
+    }
+}
+
+#authors{
+    h1{
+        color:$primary;
+    }
+    img{
+        margin-top: -50px;
+    }
+    .fa{
+        font-size: 25px;
+        color: $primary;
+    }
+    .card:hover{
+        background: $primary;
+        color: #fff;
+        .fa{
+            color: #fff;
+        }
+        h5{
+            color: #fff!important;
+        }
+    }
+}
+
+#contact{
+   h2{
+        color: $primary;
+   }
+   span{
+       background: $primary;
+       color: #fff;
+   }
+   input.btn{
+       background: $primary;
+       color: #fff;
+   }
+   input.btn:hover{
+       background: #fff;
+       color: $primary;
+       border: 1px solid $primary;
+   }
+}
+
+#main-footer{
+    background: $primary;
+}
