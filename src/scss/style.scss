@@ -26,11 +26,6 @@ body{
     background-position: center;
     min-height: 600px;
 
-    .text{
-        position: relative;
-        padding: 8.5rem;
-    }
-
     .primary-overlay{
         background: $primary-overlay;
         position: absolute;
@@ -145,4 +140,10 @@ body{
 
 #main-footer{
     background: $primary;
+}
+
+@media(max-width: 690px) {
+    #showcase h1{
+        font-size: 4rem;
+    }
 }

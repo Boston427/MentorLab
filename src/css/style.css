@@ -16,9 +16,6 @@ body {
   background: url("../img/mentorlabbg.jpeg");
   background-position: center;
   min-height: 600px; }
-  #showcase .text {
-    position: relative;
-    padding: 8.5rem; }
   #showcase .primary-overlay {
     background: rgba(50, 146, 166, 0.8);
     position: absolute;
@@ -107,3 +104,7 @@ body {
 
 #main-footer {
   background: #3292a6; }
+
+@media (max-width: 690px) {
+  #showcase h1 {
+    font-size: 4rem; } }
